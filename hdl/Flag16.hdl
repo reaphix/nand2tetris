@@ -1,0 +1,11 @@
+//This Chip is get the flag bit from the input
+
+
+
+CHIP Flag16 {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+	And(a=in[15],b=in[15],out=out);
+}
